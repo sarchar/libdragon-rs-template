@@ -1,0 +1,12 @@
+[package]
+name = "libdragon-rs-template"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+rust-version = "1.75.0"
+
+[dependencies]
+libdragon = { git = "https://github.com/sarchar/libdragon-rs.git" }
+
+[build-dependencies]
+libdragon-build = { git = "https://github.com/sarchar/libdragon-rs.git" }
