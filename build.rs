@@ -5,5 +5,6 @@ fn main() -> Result<()> {
         .set_env_file(".libdragon-env")
         .set_just_file(".libdragon-just")
         .set_game_name("TEMPLATE")
+        .set_rom_compression_level(1)
         .build()
 }
